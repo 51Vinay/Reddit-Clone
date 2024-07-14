@@ -1,4 +1,5 @@
 ###----Prerequisite For This Project------
+
 Before we begin with the Project, we need to make sure we have the following prerequisites installed:
 
 1)EC2 ( AMI- Ubuntu, Type- t2.medium )
@@ -18,6 +19,7 @@ sudo usermod -aG docker $USER && newgrp docker
 
 # For Minikube & Kubectl
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+
 sudo install minikube-linux-amd64 /usr/local/bin/minikube 
 
 sudo snap install kubectl --classic
